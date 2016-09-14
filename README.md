@@ -1,13 +1,3 @@
-# Welcome to a SESYNC Training Event
+# SESYNC RStudio Course
 
-Once you have cloned this repository, why don't you push it back up to your own GitHub repo?
-
-While logged in to GitHub, use the "+" icon in the upper right to create a new repository. Give it a name but leave the repo empty -- don't even check the box to add a README. Next, we'll change the remote url of this local clone to replace the current origin (SESYNC-ci/handouts) with your brand new repo. To do so, from a shell with working directory set to a path inside your local clone, enter:
-
-    git remote set-url origin https://github.com/%user%/%repo%.git
-	
-Replace `%user%` with your user name on GitHub and `%repo%` with the name of your new GitHub repo. Now just push the commits on all branches up to your origin:
-
-    git push origin --all
-   
-You are now able to commit and push any changes you make locally to your own repo on GitHub.
+Our project is focused on developing informative and interactive visualizations of the current (and potentially projected, pending the outcome of an independent project) Zika case counts both in and outside the continental US. The goal is to implement an easily updateable (as new case counts are received) script that allows us to produce interactive visualizations of the spatio-temporal disease burden.
